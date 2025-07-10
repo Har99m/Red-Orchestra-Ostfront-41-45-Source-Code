@@ -1,0 +1,62 @@
+class T3476CannonShellHE extends CannonShellHE76MM;
+
+defaultproperties
+{
+     MechanicalRanges(1)=(Range=200,RangeValue=-15.000000)
+     MechanicalRanges(2)=(Range=400,RangeValue=-30.000000)
+     MechanicalRanges(3)=(Range=600,RangeValue=-40.000000)
+     MechanicalRanges(4)=(Range=800,RangeValue=-65.000000)
+     MechanicalRanges(5)=(Range=1000,RangeValue=-70.000000)
+     MechanicalRanges(6)=(Range=1200,RangeValue=-82.000000)
+     MechanicalRanges(7)=(Range=1400,RangeValue=-92.000000)
+     MechanicalRanges(8)=(Range=1600,RangeValue=-113.000000)
+     MechanicalRanges(9)=(Range=1800,RangeValue=-138.000000)
+     MechanicalRanges(10)=(Range=2000,RangeValue=-180.000000)
+     MechanicalRanges(11)=(Range=2200,RangeValue=-235.000000)
+     MechanicalRanges(12)=(Range=2400,RangeValue=-283.000000)
+     MechanicalRanges(13)=(Range=2600,RangeValue=-335.000000)
+     MechanicalRanges(14)=(Range=2800,RangeValue=-397.000000)
+     MechanicalRanges(15)=(Range=3000,RangeValue=-458.000000)
+     MechanicalRanges(16)=(Range=3200,RangeValue=-518.000000)
+     MechanicalRanges(17)=(Range=3400,RangeValue=-578.000000)
+     MechanicalRanges(18)=(Range=3600,RangeValue=-642.000000)
+     MechanicalRanges(19)=(Range=3800,RangeValue=-704.000000)
+     MechanicalRanges(20)=(Range=4000,RangeValue=-769.000000)
+     MechanicalRanges(21)=(Range=4200)
+     MechanicalRanges(22)=(Range=4400)
+     MechanicalRanges(23)=(Range=4600)
+     MechanicalRanges(24)=(Range=4800)
+     MechanicalRanges(25)=(Range=5000)
+     OpticalRanges(0)=(RangeValue=0.410000)
+     OpticalRanges(1)=(Range=200,RangeValue=0.418000)
+     OpticalRanges(2)=(Range=400,RangeValue=0.426000)
+     OpticalRanges(3)=(Range=600,RangeValue=0.433500)
+     OpticalRanges(4)=(Range=800,RangeValue=0.443000)
+     OpticalRanges(5)=(Range=1000,RangeValue=0.451500)
+     OpticalRanges(6)=(Range=1200,RangeValue=0.462000)
+     OpticalRanges(7)=(Range=1400,RangeValue=0.473000)
+     OpticalRanges(8)=(Range=1600,RangeValue=0.487000)
+     OpticalRanges(9)=(Range=1800,RangeValue=0.502000)
+     OpticalRanges(10)=(Range=2000,RangeValue=0.522000)
+     OpticalRanges(11)=(Range=2200,RangeValue=0.545000)
+     OpticalRanges(12)=(Range=2400,RangeValue=0.567000)
+     OpticalRanges(13)=(Range=2600,RangeValue=0.592500)
+     OpticalRanges(14)=(Range=2800,RangeValue=0.620000)
+     OpticalRanges(15)=(Range=3000,RangeValue=0.649000)
+     OpticalRanges(16)=(Range=3200,RangeValue=0.680000)
+     OpticalRanges(17)=(Range=3400,RangeValue=0.711000)
+     OpticalRanges(18)=(Range=3600,RangeValue=0.744000)
+     OpticalRanges(19)=(Range=3800,RangeValue=0.778000)
+     OpticalRanges(20)=(Range=4000,RangeValue=0.813000)
+     OpticalRanges(21)=(Range=4200,RangeValue=0.813000)
+     OpticalRanges(22)=(Range=4400,RangeValue=0.813000)
+     OpticalRanges(23)=(Range=4600,RangeValue=0.813000)
+     OpticalRanges(24)=(Range=4800,RangeValue=0.813000)
+     OpticalRanges(25)=(Range=5000,RangeValue=0.813000)
+     bMechanicalAiming=True
+     bOpticalAiming=True
+     BallisticCoefficient=1.550000
+     SpeedFudgeScale=0.500000
+     Speed=39831.000000
+     MaxSpeed=39831.000000
+}

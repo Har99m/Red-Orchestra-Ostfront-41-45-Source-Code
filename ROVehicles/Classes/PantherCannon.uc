@@ -1,0 +1,100 @@
+//===================================================================
+// PantherCannon
+//
+// Copyright (C) 2004 John "Ramm-Jaeger"  Gibson
+//
+// Panzer 4 tank cannon class
+//===================================================================
+class PantherCannon extends ROTankCannon;
+
+defaultproperties
+{
+     ReloadSoundOne=Sound'Vehicle_reloads.Reloads.panther_reload_01'
+     ReloadSoundTwo=Sound'Vehicle_reloads.Reloads.panther_reload_02'
+     ReloadSoundThree=Sound'Vehicle_reloads.Reloads.panther_reload_03'
+     ReloadSoundFour=Sound'Vehicle_reloads.Reloads.panther_reload_04'
+     CannonFireSound(0)=SoundGroup'Vehicle_Weapons.Panther.75mm_VL_fire01'
+     CannonFireSound(1)=SoundGroup'Vehicle_Weapons.Panther.75mm_VL_fire02'
+     CannonFireSound(2)=SoundGroup'Vehicle_Weapons.Panther.75mm_VL_fire03'
+     RangeSettings(1)=100
+     RangeSettings(2)=200
+     RangeSettings(3)=300
+     RangeSettings(4)=400
+     RangeSettings(5)=500
+     RangeSettings(6)=600
+     RangeSettings(7)=700
+     RangeSettings(8)=800
+     RangeSettings(9)=900
+     RangeSettings(10)=1000
+     RangeSettings(11)=1200
+     RangeSettings(12)=1400
+     RangeSettings(13)=1600
+     RangeSettings(14)=1800
+     RangeSettings(15)=2000
+     RangeSettings(16)=2200
+     RangeSettings(17)=2400
+     RangeSettings(18)=2600
+     RangeSettings(19)=2800
+     RangeSettings(20)=3000
+     ReloadSound=Sound'Vehicle_reloads.Reloads.MG34_ReloadHidden'
+     NumAltMags=4
+     DummyTracerClass=Class'ROInventory.MG34ClientTracer'
+     mTracerInterval=0.280000
+     bUsesTracers=True
+     bAltFireTracersOnly=True
+     VehHitpoints(0)=(PointRadius=9.000000,PointScale=1.000000,PointBone="com_player",PointOffset=(X=-4.000000,Z=18.000000))
+     VehHitpoints(1)=(PointRadius=15.000000,PointScale=1.000000,PointBone="com_player",PointOffset=(X=-4.000000,Z=-3.000000))
+     hudAltAmmoIcon=Texture'InterfaceArt_tex.HUD.mg42_ammo'
+     YawBone="Turret"
+     PitchBone="Gun"
+     PitchUpLimit=15000
+     PitchDownLimit=45000
+     WeaponFireAttachmentBone="Gun"
+     GunnerAttachmentBone="com_attachment"
+     WeaponFireOffset=200.000000
+     AltFireOffset=(X=21.000000,Y=27.000000,Z=7.000000)
+     RotationsPerSecond=0.066000
+     bAmbientAltFireSound=True
+     FireInterval=13.000000
+     AltFireInterval=0.070000
+     EffectEmitterClass=Class'ROEffects.TankCannonFireEffect'
+     AmbientEffectEmitterClass=Class'ROVehicles.TankMGEmitter'
+     bAmbientEmitterAltFireOnly=True
+     FireSoundVolume=512.000000
+     AltFireSoundClass=SoundGroup'Inf_Weapons.mg34_p.mg34_p_fire_loop'
+     AltFireSoundScaling=3.000000
+     RotateSound=Sound'Vehicle_Weapons.Turret.hydraul_turret_traverse'
+     AltFireEndSound=SoundGroup'Inf_Weapons.mg34_p.mg34_p_fire_end'
+     FireForce="Explosion05"
+     ProjectileClass=Class'ROVehicles.PantherCannonShell'
+     AltFireProjectileClass=Class'ROInventory.ROMG34Bullet'
+     ShakeRotMag=(Z=250.000000)
+     ShakeRotRate=(Z=2500.000000)
+     ShakeRotTime=6.000000
+     ShakeOffsetMag=(Z=10.000000)
+     ShakeOffsetRate=(Z=200.000000)
+     ShakeOffsetTime=10.000000
+     AltShakeRotMag=(X=50.000000,Y=50.000000,Z=50.000000)
+     AltShakeRotRate=(X=10000.000000,Y=10000.000000,Z=10000.000000)
+     AltShakeRotTime=2.000000
+     AltShakeOffsetMag=(X=1.000000,Y=1.000000,Z=1.000000)
+     AltShakeOffsetRate=(X=1000.000000,Y=1000.000000,Z=1000.000000)
+     AltShakeOffsetTime=2.000000
+     AIInfo(0)=(bLeadTarget=True,WarnTargetPct=0.750000,RefireRate=0.500000)
+     AIInfo(1)=(bLeadTarget=True,WarnTargetPct=0.750000,RefireRate=0.015000)
+     CustomPitchUpLimit=6000
+     CustomPitchDownLimit=64000
+     BeginningIdleAnim="com_idle_close"
+     InitialPrimaryAmmo=40
+     InitialSecondaryAmmo=39
+     InitialAltAmmo=150
+     PrimaryProjectileClass=Class'ROVehicles.PantherCannonShell'
+     SecondaryProjectileClass=Class'ROVehicles.PantherCannonShellHE'
+     Mesh=SkeletalMesh'axis_pantherg_anm.PantherG_turret_ext'
+     Skins(0)=Texture'axis_vehicles_tex.ext_vehicles.pantherg_ext'
+     Skins(1)=Texture'axis_vehicles_tex.int_vehicles.pantherg_int'
+     SoundVolume=130
+     HighDetailOverlay=Shader'axis_vehicles_tex.int_vehicles.pantherg_int_s'
+     bUseHighDetailOverlayIndex=True
+     HighDetailOverlayIndex=1
+}

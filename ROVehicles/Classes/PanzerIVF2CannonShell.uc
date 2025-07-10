@@ -1,0 +1,36 @@
+class PanzerIVF2CannonShell extends ROTankCannonShell;
+
+defaultproperties
+{
+     MechanicalRanges(1)=(Range=100,RangeValue=8.000000)
+     MechanicalRanges(2)=(Range=200,RangeValue=20.000000)
+     MechanicalRanges(3)=(Range=300,RangeValue=31.000000)
+     MechanicalRanges(4)=(Range=400,RangeValue=40.000000)
+     MechanicalRanges(5)=(Range=500,RangeValue=55.000000)
+     MechanicalRanges(6)=(Range=600,RangeValue=64.000000)
+     MechanicalRanges(7)=(Range=700,RangeValue=75.000000)
+     MechanicalRanges(8)=(Range=800,RangeValue=86.000000)
+     MechanicalRanges(9)=(Range=900,RangeValue=99.000000)
+     MechanicalRanges(10)=(Range=1000,RangeValue=112.000000)
+     MechanicalRanges(11)=(Range=1200,RangeValue=137.000000)
+     MechanicalRanges(12)=(Range=1400,RangeValue=170.000000)
+     MechanicalRanges(13)=(Range=1600,RangeValue=203.000000)
+     MechanicalRanges(14)=(Range=1800,RangeValue=233.000000)
+     MechanicalRanges(15)=(Range=2000,RangeValue=271.000000)
+     bMechanicalAiming=True
+     PenetrationTable(0)=18
+     PenetrationTable(1)=17
+     PenetrationTable(2)=17
+     PenetrationTable(3)=17
+     PenetrationTable(4)=17
+     PenetrationTable(5)=16
+     PenetrationTable(6)=16
+     PenetrationTable(7)=15
+     PenetrationTable(8)=15
+     PenetrationTable(9)=14
+     PenetrationTable(10)=14
+     BallisticCoefficient=1.800000
+     SpeedFudgeScale=0.500000
+     Speed=44660.000000
+     MaxSpeed=44660.000000
+}

@@ -1,0 +1,42 @@
+class PantherCannonShell extends ROTankCannonShell;
+
+defaultproperties
+{
+     MechanicalRanges(1)=(Range=100,RangeValue=4.000000)
+     MechanicalRanges(2)=(Range=200,RangeValue=12.000000)
+     MechanicalRanges(3)=(Range=300,RangeValue=18.000000)
+     MechanicalRanges(4)=(Range=400,RangeValue=25.000000)
+     MechanicalRanges(5)=(Range=500,RangeValue=32.000000)
+     MechanicalRanges(6)=(Range=600,RangeValue=40.000000)
+     MechanicalRanges(7)=(Range=700,RangeValue=47.000000)
+     MechanicalRanges(8)=(Range=800,RangeValue=55.000000)
+     MechanicalRanges(9)=(Range=900,RangeValue=62.000000)
+     MechanicalRanges(10)=(Range=1000,RangeValue=70.000000)
+     MechanicalRanges(11)=(Range=1200,RangeValue=88.000000)
+     MechanicalRanges(12)=(Range=1400,RangeValue=106.000000)
+     MechanicalRanges(13)=(Range=1600,RangeValue=129.000000)
+     MechanicalRanges(14)=(Range=1800,RangeValue=150.000000)
+     MechanicalRanges(15)=(Range=2000,RangeValue=167.000000)
+     MechanicalRanges(16)=(Range=2200,RangeValue=187.000000)
+     MechanicalRanges(17)=(Range=2400,RangeValue=215.000000)
+     MechanicalRanges(18)=(Range=2600,RangeValue=242.000000)
+     MechanicalRanges(19)=(Range=2800,RangeValue=263.000000)
+     MechanicalRanges(20)=(Range=3000,RangeValue=294.000000)
+     bMechanicalAiming=True
+     PenetrationTable(0)=24
+     PenetrationTable(1)=23
+     PenetrationTable(2)=23
+     PenetrationTable(3)=23
+     PenetrationTable(4)=23
+     PenetrationTable(5)=22
+     PenetrationTable(6)=22
+     PenetrationTable(7)=21
+     PenetrationTable(8)=21
+     PenetrationTable(9)=20
+     PenetrationTable(10)=20
+     ImpactDamage=450
+     BallisticCoefficient=1.800000
+     SpeedFudgeScale=0.500000
+     Speed=56427.000000
+     MaxSpeed=56427.000000
+}

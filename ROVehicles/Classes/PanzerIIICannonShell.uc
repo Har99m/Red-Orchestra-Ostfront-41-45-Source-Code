@@ -1,0 +1,38 @@
+class PanzerIIICannonShell extends ROTankCannonShell;
+
+defaultproperties
+{
+     MechanicalRanges(1)=(Range=100,RangeValue=8.000000)
+     MechanicalRanges(2)=(Range=200,RangeValue=14.000000)
+     MechanicalRanges(3)=(Range=300,RangeValue=25.000000)
+     MechanicalRanges(4)=(Range=400,RangeValue=32.000000)
+     MechanicalRanges(5)=(Range=500,RangeValue=45.000000)
+     MechanicalRanges(6)=(Range=600,RangeValue=52.000000)
+     MechanicalRanges(7)=(Range=700,RangeValue=65.000000)
+     MechanicalRanges(8)=(Range=800,RangeValue=77.000000)
+     MechanicalRanges(9)=(Range=900,RangeValue=90.000000)
+     MechanicalRanges(10)=(Range=1000,RangeValue=100.000000)
+     MechanicalRanges(11)=(Range=1200,RangeValue=131.000000)
+     MechanicalRanges(12)=(Range=1400,RangeValue=166.000000)
+     MechanicalRanges(13)=(Range=1600,RangeValue=203.000000)
+     MechanicalRanges(14)=(Range=1800,RangeValue=251.000000)
+     MechanicalRanges(15)=(Range=2000,RangeValue=296.000000)
+     bMechanicalAiming=True
+     PenetrationTable(0)=14
+     PenetrationTable(1)=14
+     PenetrationTable(2)=13
+     PenetrationTable(3)=13
+     PenetrationTable(4)=13
+     PenetrationTable(5)=12
+     PenetrationTable(6)=11
+     PenetrationTable(7)=11
+     PenetrationTable(8)=10
+     PenetrationTable(9)=9
+     PenetrationTable(10)=9
+     ImpactDamage=200
+     BallisticCoefficient=0.950000
+     SpeedFudgeScale=0.500000
+     Speed=50392.000000
+     MaxSpeed=50392.000000
+     StaticMesh=StaticMesh'WeaponPickupSM.shells.76mm_shell'
+}

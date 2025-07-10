@@ -1,0 +1,65 @@
+class T3485CannonShell extends ROTankCannonShell;
+
+defaultproperties
+{
+     MechanicalRanges(1)=(Range=400,RangeValue=35.000000)
+     MechanicalRanges(2)=(Range=500,RangeValue=45.000000)
+     MechanicalRanges(3)=(Range=600,RangeValue=55.000000)
+     MechanicalRanges(4)=(Range=700,RangeValue=65.000000)
+     MechanicalRanges(5)=(Range=800,RangeValue=75.000000)
+     MechanicalRanges(6)=(Range=900,RangeValue=85.000000)
+     MechanicalRanges(7)=(Range=1000,RangeValue=96.000000)
+     MechanicalRanges(8)=(Range=1200,RangeValue=117.000000)
+     MechanicalRanges(9)=(Range=1400,RangeValue=139.000000)
+     MechanicalRanges(10)=(Range=1600,RangeValue=168.000000)
+     MechanicalRanges(11)=(Range=1800,RangeValue=198.000000)
+     MechanicalRanges(12)=(Range=2000,RangeValue=224.000000)
+     MechanicalRanges(13)=(Range=2200,RangeValue=253.000000)
+     MechanicalRanges(14)=(Range=2400,RangeValue=287.000000)
+     MechanicalRanges(15)=(Range=2600,RangeValue=324.000000)
+     MechanicalRanges(16)=(Range=2800,RangeValue=362.000000)
+     MechanicalRanges(17)=(Range=3000,RangeValue=399.000000)
+     MechanicalRanges(18)=(Range=3200,RangeValue=445.000000)
+     MechanicalRanges(19)=(Range=3400,RangeValue=491.000000)
+     MechanicalRanges(20)=(Range=3600,RangeValue=536.000000)
+     MechanicalRanges(21)=(Range=3800,RangeValue=588.000000)
+     OpticalRanges(0)=(RangeValue=0.369000)
+     OpticalRanges(1)=(Range=400,RangeValue=0.356500)
+     OpticalRanges(2)=(Range=500,RangeValue=0.349000)
+     OpticalRanges(3)=(Range=600,RangeValue=0.343000)
+     OpticalRanges(4)=(Range=700,RangeValue=0.336000)
+     OpticalRanges(5)=(Range=800,RangeValue=0.329500)
+     OpticalRanges(6)=(Range=900,RangeValue=0.323000)
+     OpticalRanges(7)=(Range=1000,RangeValue=0.316500)
+     OpticalRanges(8)=(Range=1200,RangeValue=0.303000)
+     OpticalRanges(9)=(Range=1400,RangeValue=0.291000)
+     OpticalRanges(10)=(Range=1600,RangeValue=0.278000)
+     OpticalRanges(11)=(Range=1800,RangeValue=0.265000)
+     OpticalRanges(12)=(Range=2000,RangeValue=0.252000)
+     OpticalRanges(13)=(Range=2200,RangeValue=0.239000)
+     OpticalRanges(14)=(Range=2400,RangeValue=0.226000)
+     OpticalRanges(15)=(Range=2600,RangeValue=0.213000)
+     OpticalRanges(16)=(Range=2800,RangeValue=0.200000)
+     OpticalRanges(17)=(Range=3000,RangeValue=0.187000)
+     OpticalRanges(18)=(Range=3200,RangeValue=0.174000)
+     OpticalRanges(19)=(Range=3400,RangeValue=0.161000)
+     OpticalRanges(20)=(Range=3600,RangeValue=0.148000)
+     OpticalRanges(21)=(Range=3800,RangeValue=0.135000)
+     bMechanicalAiming=True
+     bOpticalAiming=True
+     PenetrationTable(0)=18
+     PenetrationTable(1)=18
+     PenetrationTable(2)=17
+     PenetrationTable(3)=17
+     PenetrationTable(4)=17
+     PenetrationTable(5)=16
+     PenetrationTable(6)=16
+     PenetrationTable(7)=15
+     PenetrationTable(8)=15
+     PenetrationTable(9)=14
+     PenetrationTable(10)=14
+     BallisticCoefficient=2.000000
+     SpeedFudgeScale=0.500000
+     Speed=47797.000000
+     MaxSpeed=47797.000000
+}

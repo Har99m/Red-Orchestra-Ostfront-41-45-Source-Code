@@ -1,0 +1,107 @@
+//===================================================================
+// IS2Cannon
+//
+// Copyright (C) 2004 John "Ramm-Jaeger"  Gibson
+//
+// IS-2 tank cannon class
+//===================================================================
+class IS2Cannon extends ROTankCannon;
+
+defaultproperties
+{
+     ReloadSoundOne=Sound'Vehicle_reloads.Reloads.IS2_reload_01'
+     ReloadSoundTwo=Sound'Vehicle_reloads.Reloads.IS2_reload_02'
+     ReloadSoundThree=Sound'Vehicle_reloads.Reloads.IS2_reload_03'
+     ReloadSoundFour=Sound'Vehicle_reloads.Reloads.IS2_reload_04'
+     CannonFireSound(0)=SoundGroup'Vehicle_Weapons.IS2.122mm_fire01'
+     CannonFireSound(1)=SoundGroup'Vehicle_Weapons.IS2.122mm_fire02'
+     CannonFireSound(2)=SoundGroup'Vehicle_Weapons.IS2.122mm_fire02'
+     RangeSettings(1)=400
+     RangeSettings(2)=500
+     RangeSettings(3)=600
+     RangeSettings(4)=700
+     RangeSettings(5)=800
+     RangeSettings(6)=900
+     RangeSettings(7)=1000
+     RangeSettings(8)=1200
+     RangeSettings(9)=1400
+     RangeSettings(10)=1600
+     RangeSettings(11)=1800
+     RangeSettings(12)=2000
+     RangeSettings(13)=2200
+     RangeSettings(14)=2400
+     RangeSettings(15)=2600
+     RangeSettings(16)=2800
+     RangeSettings(17)=3000
+     RangeSettings(18)=3200
+     RangeSettings(19)=3400
+     RangeSettings(20)=3600
+     RangeSettings(21)=3800
+     RangeSettings(22)=4000
+     RangeSettings(23)=4200
+     RangeSettings(24)=4400
+     RangeSettings(25)=4600
+     RangeSettings(26)=4800
+     RangeSettings(27)=5000
+     RangeSettings(28)=5200
+     ReloadSound=Sound'Vehicle_reloads.Reloads.DT_ReloadHidden'
+     NumAltMags=15
+     DummyTracerClass=Class'ROInventory.DP28ClientTracer'
+     mTracerInterval=0.300000
+     bUsesTracers=True
+     bAltFireTracersOnly=True
+     VehHitpoints(0)=(PointRadius=15.000000,PointScale=1.000000,PointBone="com_player",PointOffset=(X=-5.000000))
+     VehHitpoints(1)=(PointRadius=9.000000,PointScale=1.000000,PointBone="com_player",PointOffset=(X=-5.000000,Z=20.000000))
+     YawBone="Turret"
+     PitchBone="Gun"
+     PitchUpLimit=15000
+     PitchDownLimit=45000
+     WeaponFireAttachmentBone="Gun"
+     GunnerAttachmentBone="com_attachment"
+     WeaponFireOffset=200.000000
+     AltFireOffset=(X=17.000000,Y=19.000000)
+     RotationsPerSecond=0.070000
+     bAmbientAltFireSound=True
+     FireInterval=20.000000
+     AltFireInterval=0.100000
+     EffectEmitterClass=Class'ROEffects.TankCannonFireEffect'
+     AmbientEffectEmitterClass=Class'ROVehicles.TankMGEmitter'
+     bAmbientEmitterAltFireOnly=True
+     FireSoundVolume=512.000000
+     AltFireSoundClass=SoundGroup'Inf_Weapons.dt.dt_fire_loop'
+     AltFireSoundScaling=3.000000
+     RotateSound=Sound'Vehicle_Weapons.Turret.hydraul_turret_traverse'
+     AltFireEndSound=SoundGroup'Inf_Weapons.dt.dt_fire_end'
+     FireForce="Explosion05"
+     ProjectileClass=Class'ROVehicles.IS2CannonShell'
+     AltFireProjectileClass=Class'ROInventory.DP28Bullet'
+     ShakeRotMag=(Z=250.000000)
+     ShakeRotRate=(Z=2500.000000)
+     ShakeRotTime=6.000000
+     ShakeOffsetMag=(Z=10.000000)
+     ShakeOffsetRate=(Z=200.000000)
+     ShakeOffsetTime=10.000000
+     AltShakeRotMag=(X=50.000000,Y=50.000000,Z=50.000000)
+     AltShakeRotRate=(X=10000.000000,Y=10000.000000,Z=10000.000000)
+     AltShakeRotTime=2.000000
+     AltShakeOffsetMag=(X=1.000000,Y=1.000000,Z=1.000000)
+     AltShakeOffsetRate=(X=1000.000000,Y=1000.000000,Z=1000.000000)
+     AltShakeOffsetTime=2.000000
+     AIInfo(0)=(bLeadTarget=True,WarnTargetPct=0.750000,RefireRate=0.500000)
+     AIInfo(1)=(bLeadTarget=True,WarnTargetPct=0.750000,RefireRate=0.015000)
+     CustomPitchUpLimit=6000
+     CustomPitchDownLimit=64500
+     BeginningIdleAnim="com_idle_close"
+     InitialPrimaryAmmo=18
+     InitialSecondaryAmmo=10
+     InitialAltAmmo=60
+     PrimaryProjectileClass=Class'ROVehicles.IS2CannonShell'
+     SecondaryProjectileClass=Class'ROVehicles.IS2CannonShellHE'
+     Mesh=SkeletalMesh'allies_is2_anm.IS2_turret_ext'
+     Skins(0)=Texture'allies_vehicles_tex.ext_vehicles.IS2_ext'
+     Skins(1)=Texture'allies_vehicles_tex.int_vehicles.IS2_int'
+     SoundVolume=130
+     HighDetailOverlay=Shader'allies_vehicles_tex.int_vehicles.IS2_int_s'
+     bUseHighDetailOverlayIndex=True
+     HighDetailOverlayIndex=1
+}

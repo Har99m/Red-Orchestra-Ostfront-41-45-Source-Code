@@ -1,0 +1,35 @@
+class PanzerIIICannonShellAPCR extends ROTankCannonShell;
+
+defaultproperties
+{
+     MechanicalRanges(1)=(Range=100,RangeValue=4.000000)
+     MechanicalRanges(2)=(Range=200,RangeValue=10.000000)
+     MechanicalRanges(3)=(Range=300,RangeValue=15.000000)
+     MechanicalRanges(4)=(Range=400,RangeValue=22.000000)
+     MechanicalRanges(5)=(Range=500,RangeValue=31.000000)
+     MechanicalRanges(6)=(Range=600,RangeValue=42.000000)
+     MechanicalRanges(7)=(Range=700,RangeValue=55.000000)
+     MechanicalRanges(8)=(Range=800,RangeValue=76.000000)
+     MechanicalRanges(9)=(Range=900,RangeValue=97.000000)
+     MechanicalRanges(10)=(Range=1000,RangeValue=130.000000)
+     MechanicalRanges(11)=(Range=1200,RangeValue=204.000000)
+     MechanicalRanges(12)=(Range=1400,RangeValue=293.000000)
+     MechanicalRanges(13)=(Range=1600,RangeValue=432.000000)
+     MechanicalRanges(14)=(Range=1800,RangeValue=597.000000)
+     MechanicalRanges(15)=(Range=2000,RangeValue=772.000000)
+     bMechanicalAiming=True
+     PenetrationTable(0)=20
+     PenetrationTable(1)=19
+     PenetrationTable(2)=18
+     PenetrationTable(3)=17
+     PenetrationTable(4)=15
+     PenetrationTable(5)=13
+     PenetrationTable(6)=11
+     ImpactDamage=250
+     BallisticCoefficient=0.270000
+     SpeedFudgeScale=0.400000
+     Speed=71313.000000
+     MaxSpeed=71313.000000
+     StaticMesh=StaticMesh'WeaponPickupSM.shells.76mm_shell'
+     LifeSpan=10.000000
+}

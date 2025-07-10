@@ -1,0 +1,48 @@
+class TigerCannonShell extends ROTankCannonShell;
+
+defaultproperties
+{
+     MechanicalRanges(1)=(Range=100,RangeValue=8.000000)
+     MechanicalRanges(2)=(Range=200,RangeValue=18.000000)
+     MechanicalRanges(3)=(Range=300,RangeValue=29.000000)
+     MechanicalRanges(4)=(Range=400,RangeValue=38.000000)
+     MechanicalRanges(5)=(Range=500,RangeValue=45.000000)
+     MechanicalRanges(6)=(Range=600,RangeValue=55.000000)
+     MechanicalRanges(7)=(Range=700,RangeValue=67.000000)
+     MechanicalRanges(8)=(Range=800,RangeValue=75.000000)
+     MechanicalRanges(9)=(Range=900,RangeValue=87.000000)
+     MechanicalRanges(10)=(Range=1000,RangeValue=98.000000)
+     MechanicalRanges(11)=(Range=1200,RangeValue=120.000000)
+     MechanicalRanges(12)=(Range=1400,RangeValue=145.000000)
+     MechanicalRanges(13)=(Range=1600,RangeValue=170.000000)
+     MechanicalRanges(14)=(Range=1800,RangeValue=205.000000)
+     MechanicalRanges(15)=(Range=2000,RangeValue=230.000000)
+     MechanicalRanges(16)=(Range=2200,RangeValue=260.000000)
+     MechanicalRanges(17)=(Range=2400,RangeValue=295.000000)
+     MechanicalRanges(18)=(Range=2600,RangeValue=325.000000)
+     MechanicalRanges(19)=(Range=2800,RangeValue=363.000000)
+     MechanicalRanges(20)=(Range=3000,RangeValue=403.000000)
+     MechanicalRanges(21)=(Range=3200,RangeValue=448.000000)
+     MechanicalRanges(22)=(Range=3400,RangeValue=493.000000)
+     MechanicalRanges(23)=(Range=3600,RangeValue=541.000000)
+     MechanicalRanges(24)=(Range=3800,RangeValue=589.000000)
+     MechanicalRanges(25)=(Range=4000,RangeValue=639.000000)
+     bMechanicalAiming=True
+     PenetrationTable(0)=23
+     PenetrationTable(1)=22
+     PenetrationTable(2)=22
+     PenetrationTable(3)=22
+     PenetrationTable(4)=22
+     PenetrationTable(5)=21
+     PenetrationTable(6)=21
+     PenetrationTable(7)=20
+     PenetrationTable(8)=20
+     PenetrationTable(9)=19
+     PenetrationTable(10)=19
+     ImpactDamage=450
+     BallisticCoefficient=2.200000
+     SpeedFudgeScale=0.500000
+     Speed=46650.000000
+     MaxSpeed=46650.000000
+     StaticMesh=StaticMesh'WeaponPickupSM.shells.122mm_shell'
+}

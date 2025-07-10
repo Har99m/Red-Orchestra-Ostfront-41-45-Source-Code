@@ -1,0 +1,35 @@
+class Stug3CannonShellHE extends CannonShellHE75MM;
+
+defaultproperties
+{
+     MechanicalRanges(1)=(Range=100,RangeValue=17.000000)
+     MechanicalRanges(2)=(Range=200,RangeValue=36.000000)
+     MechanicalRanges(3)=(Range=300,RangeValue=57.000000)
+     MechanicalRanges(4)=(Range=400,RangeValue=77.000000)
+     MechanicalRanges(5)=(Range=500,RangeValue=98.000000)
+     MechanicalRanges(6)=(Range=600,RangeValue=115.000000)
+     MechanicalRanges(7)=(Range=700,RangeValue=137.000000)
+     MechanicalRanges(8)=(Range=800,RangeValue=160.000000)
+     MechanicalRanges(9)=(Range=900,RangeValue=183.000000)
+     MechanicalRanges(10)=(Range=1000,RangeValue=208.000000)
+     MechanicalRanges(11)=(Range=1200,RangeValue=262.000000)
+     MechanicalRanges(12)=(Range=1400,RangeValue=320.000000)
+     MechanicalRanges(13)=(Range=1600,RangeValue=379.000000)
+     MechanicalRanges(14)=(Range=1800,RangeValue=440.000000)
+     MechanicalRanges(15)=(Range=2000,RangeValue=504.000000)
+     MechanicalRanges(16)=(Range=2200,RangeValue=573.000000)
+     MechanicalRanges(17)=(Range=2400,RangeValue=652.000000)
+     MechanicalRanges(18)=(Range=2600,RangeValue=730.000000)
+     MechanicalRanges(19)=(Range=2800,RangeValue=809.000000)
+     MechanicalRanges(20)=(Range=3000,RangeValue=900.000000)
+     MechanicalRanges(21)=(Range=3200,RangeValue=984.000000)
+     MechanicalRanges(22)=(Range=3400,RangeValue=1087.000000)
+     MechanicalRanges(23)=(Range=3600,RangeValue=1208.000000)
+     MechanicalRanges(24)=(Range=3800,RangeValue=1340.000000)
+     MechanicalRanges(25)=(Range=4000,RangeValue=1485.000000)
+     bMechanicalAiming=True
+     BallisticCoefficient=1.900000
+     SpeedFudgeScale=0.600000
+     Speed=32859.000000
+     MaxSpeed=32859.000000
+}

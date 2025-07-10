@@ -1,0 +1,47 @@
+class SU76CannonShell extends ROTankCannonShell;
+
+defaultproperties
+{
+     MechanicalRanges(1)=(Range=100,RangeValue=10.000000)
+     MechanicalRanges(2)=(Range=200,RangeValue=25.000000)
+     MechanicalRanges(3)=(Range=300,RangeValue=37.000000)
+     MechanicalRanges(4)=(Range=400,RangeValue=48.000000)
+     MechanicalRanges(5)=(Range=500,RangeValue=60.000000)
+     MechanicalRanges(6)=(Range=600,RangeValue=75.000000)
+     MechanicalRanges(7)=(Range=700,RangeValue=88.000000)
+     MechanicalRanges(8)=(Range=800,RangeValue=103.000000)
+     MechanicalRanges(9)=(Range=900,RangeValue=118.000000)
+     MechanicalRanges(10)=(Range=1000,RangeValue=130.000000)
+     MechanicalRanges(11)=(Range=1200,RangeValue=162.000000)
+     MechanicalRanges(12)=(Range=1400,RangeValue=200.000000)
+     MechanicalRanges(13)=(Range=1600,RangeValue=234.000000)
+     MechanicalRanges(14)=(Range=1800,RangeValue=276.000000)
+     MechanicalRanges(15)=(Range=2000,RangeValue=312.000000)
+     MechanicalRanges(16)=(Range=2200,RangeValue=355.000000)
+     MechanicalRanges(17)=(Range=2400,RangeValue=400.000000)
+     MechanicalRanges(18)=(Range=2600,RangeValue=449.000000)
+     MechanicalRanges(19)=(Range=2800,RangeValue=504.000000)
+     MechanicalRanges(20)=(Range=3000,RangeValue=559.000000)
+     MechanicalRanges(21)=(Range=3200,RangeValue=620.000000)
+     MechanicalRanges(22)=(Range=3400,RangeValue=685.000000)
+     MechanicalRanges(23)=(Range=3600,RangeValue=753.000000)
+     MechanicalRanges(24)=(Range=3800,RangeValue=827.000000)
+     MechanicalRanges(25)=(Range=4000,RangeValue=902.000000)
+     bMechanicalAiming=True
+     PenetrationTable(0)=14
+     PenetrationTable(1)=13
+     PenetrationTable(2)=13
+     PenetrationTable(3)=13
+     PenetrationTable(4)=13
+     PenetrationTable(5)=12
+     PenetrationTable(6)=12
+     PenetrationTable(7)=11
+     PenetrationTable(8)=11
+     PenetrationTable(9)=10
+     PenetrationTable(10)=10
+     ImpactDamage=350
+     BallisticCoefficient=2.000000
+     SpeedFudgeScale=0.500000
+     Speed=41038.000000
+     MaxSpeed=41038.000000
+}

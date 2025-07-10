@@ -1,0 +1,36 @@
+class TigerCannonShellHE extends CannonShellHE88MM;
+
+defaultproperties
+{
+     MechanicalRanges(1)=(Range=100,RangeValue=14.000000)
+     MechanicalRanges(2)=(Range=200,RangeValue=25.000000)
+     MechanicalRanges(3)=(Range=300,RangeValue=45.000000)
+     MechanicalRanges(4)=(Range=400,RangeValue=62.000000)
+     MechanicalRanges(5)=(Range=500,RangeValue=75.000000)
+     MechanicalRanges(6)=(Range=600,RangeValue=92.000000)
+     MechanicalRanges(7)=(Range=700,RangeValue=111.000000)
+     MechanicalRanges(8)=(Range=800,RangeValue=125.000000)
+     MechanicalRanges(9)=(Range=900,RangeValue=142.000000)
+     MechanicalRanges(10)=(Range=1000,RangeValue=168.000000)
+     MechanicalRanges(11)=(Range=1200,RangeValue=202.000000)
+     MechanicalRanges(12)=(Range=1400,RangeValue=245.000000)
+     MechanicalRanges(13)=(Range=1600,RangeValue=289.000000)
+     MechanicalRanges(14)=(Range=1800,RangeValue=334.000000)
+     MechanicalRanges(15)=(Range=2000,RangeValue=374.000000)
+     MechanicalRanges(16)=(Range=2200,RangeValue=427.000000)
+     MechanicalRanges(17)=(Range=2400,RangeValue=486.000000)
+     MechanicalRanges(18)=(Range=2600,RangeValue=539.000000)
+     MechanicalRanges(19)=(Range=2800,RangeValue=599.000000)
+     MechanicalRanges(20)=(Range=3000,RangeValue=662.000000)
+     MechanicalRanges(21)=(Range=3200,RangeValue=734.000000)
+     MechanicalRanges(22)=(Range=3400,RangeValue=808.000000)
+     MechanicalRanges(23)=(Range=3600,RangeValue=872.000000)
+     MechanicalRanges(24)=(Range=3800,RangeValue=949.000000)
+     MechanicalRanges(25)=(Range=4000,RangeValue=1028.000000)
+     bMechanicalAiming=True
+     BallisticCoefficient=2.400000
+     SpeedFudgeScale=0.600000
+     Speed=36210.000000
+     MaxSpeed=36210.000000
+     StaticMesh=StaticMesh'WeaponPickupSM.shells.122mm_shell'
+}
